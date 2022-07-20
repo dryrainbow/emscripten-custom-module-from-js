@@ -1,5 +1,5 @@
-## Passing custom module from js to C++ code
-I created a tiny exaple to show how to pass module from JS to C++ using Emscripten and `val::global()`
+## Passing custom module from JS to C++ code
+I created a tiny example to show how to pass module from JS to C++ using Emscripten and `val::global()`
 
 #### Description
 First of all we need to write a C++ function for the loading. It looks like this:
