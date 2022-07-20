@@ -13,7 +13,7 @@ int loadCustomModule (std::string globalModuleName) {
 }
 ```
 Then we need to pass this function to JS using `EMSCRIPTEN_BINDINGS`:
-```
+```cpp
 EMSCRIPTEN_BINDINGS(module) {
   function("loadCustomModule", &loadCustomModule);
 }
